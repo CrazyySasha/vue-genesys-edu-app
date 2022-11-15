@@ -16,6 +16,7 @@ module.exports = {
     },
     supports: {},
     colors: ({ colors }) => ({
+      dark: '#00040F',
       inherit: colors.inherit,
       current: colors.current,
       transparent: colors.transparent,
@@ -364,6 +365,7 @@ module.exports = {
       DEFAULT: '1',
     },
     fontFamily: {
+      comfortaa: ['Comfortaa', 'cursive'],
       sans: [
         'ui-sans-serif',
         'system-ui',

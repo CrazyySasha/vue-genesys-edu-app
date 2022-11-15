@@ -28,9 +28,23 @@ import CLogo from '../components/Logo.vue';
             </ul>
         </nav>
     </header>
-    <main>
-        <header class="bg-[url(/assets/images/ellipse.svg)] bg-no-repeat min-h-screen">
+    <main class="">
+        <header class="bg-[url(/assets/images/ellipse.svg)] pt-28 bg-no-repeat min-h-screen flex justify-between px-8">
+            <div class="w-5/12">
+                <h1 class="text-white text-5xl font-comfortaa">
+                    Lorem ipsum dolor sit amet.
+                </h1>
+                <p class="text-white text-base font-comfortaa py-16">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.
+                    Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae
+                    mattis tellus.
+                </p>
+            </div>
+            <div class="w-5/12">
+                <div class="h-16 bg-gray-50">
 
+                </div>
+            </div>
         </header>
     </main>
 

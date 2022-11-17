@@ -4,11 +4,12 @@ import CLogo from '../components/Logo.vue';
 
 </script>
 <template>
-    <header class="flex justify-between items-center px-8 font-comfortaa bg-dark fixed top-0 inset-x-0">
-        <a href="" class="text-white text-xl px-6 py-3 -mx-6 block">
+    <header
+        class="text-white flex justify-between items-center px-8 font-comfortaa backdrop-blur-sm shadow-sm fixed top-0 inset-x-0 mix-blend-lighten">
+        <a href="" class=" text-xl px-6 py-3 -mx-6 block">
             <CLogo></CLogo>
         </a>
-        <nav class="py-7">
+        <nav class="py-4">
             <ul class="flex text-xl -mx-6">
                 <li>
                     <CButtonLink>Курсы</CButtonLink>
@@ -28,10 +29,14 @@ import CLogo from '../components/Logo.vue';
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="">
         <header class="bg-[url(/assets/images/ellipse.svg)] bg-no-repeat min-h-screen">
 
         </header>
+
+        <section class="h-[400vh]">
+
+        </section>
     </main>
 
 </template>

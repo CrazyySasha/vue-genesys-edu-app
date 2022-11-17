@@ -14,7 +14,7 @@
 
 .c-line {
     @apply block absolute transition-[top,right,bottom,left] duration-300 ease-in-out;
-    @apply from-white/50 to-white ;
+    @apply from-white/10 to-white blur-[.5px];
 }
 
 .c-line.c-top {
